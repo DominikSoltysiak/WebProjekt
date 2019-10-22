@@ -1,0 +1,10 @@
+body{
+  background-color: darkred;
+  color: #DAA520;
+}
+div {
+  margin top: -20px;
+  width: 300px;
+  border: 15px solid #DAA520;
+  padding: 50px;
+}
