@@ -2,6 +2,10 @@ body{
 background-color: darkred;
 color: #DAA520;
 }
+@font-face {
+  font-family: Oktoberfest;
+  src: url(Oktoberfest.ttf);
+}
 div {
 margin top: -20px;
 width: auto;
@@ -10,12 +14,8 @@ padding: auto;
 }
 h0{
   margin-left: 20px;
-  font-size: 88px;
-  font-style: verdana;
-
-}
-ul {
-
+  font-size: 120px;
+  font-family:Oktoberfest;
 }
 button:hover span {
   padding-right: 25px;
