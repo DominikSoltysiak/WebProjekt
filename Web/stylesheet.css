@@ -1,0 +1,75 @@
+body{
+background-color: #121212;
+color: #DAA520;
+}
+@font-face {
+  src: url(Fonts/Concert_One/ConcertOne-Regular.ttf);
+  font-family: 'Regular';
+}
+#logo{
+margin top: -10px;
+width: auto;
+border: 10px solid #DAA520;
+padding: auto;
+position: relative;
+}
+h1{
+  position: absolute;
+  width: 100%;
+  top: 10%;
+  font-family: 'Regular';
+  text-shadow: 5px  5px 5px black,
+                  5px -5px 5px black,
+                 -5px  5px 5px black,
+                 -5px -5px 5px black;
+  text-align: center;
+  font-size: 16.0vw;
+}
+@media ( max-width: 26.25em ) {
+h1 {
+    font-size: 100px;
+  }
+}
+img{
+  width: 100%
+}
+
+
+<!---------------------Button--------------------->
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+button{
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #DAA520;
+  border: 2px solid black;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  width: 8.0vw;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5.5px;
+}
