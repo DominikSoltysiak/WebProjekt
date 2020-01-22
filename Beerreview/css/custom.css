@@ -21,6 +21,11 @@ width: 100px;
   width: 100px;
   height: 100px;
 }
+#socialmediaicon{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
 #beerlist{
     text-align: left;
     margin: 5px;
