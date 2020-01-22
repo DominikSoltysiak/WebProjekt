@@ -33,6 +33,7 @@ header.masthead .intro-text .intro-heading {
 
 .service-heading {
     margin: 15px 0;
+    text-align: left;
     text-transform: none;
     color: white;
 }
