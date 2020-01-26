@@ -20,6 +20,18 @@ width: 100px;
   width: 100px;
   height: 100px;
 }
+ul.social-buttons li a{
+    font-size: 20px;
+    line-height: 50px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    transition: all .3s;
+    color: #fff;
+    border-radius: 100%;
+    outline: 0;
+    background-color: #212529;
+}
 #socialmediaicon{
   border-radius: 50%;
   height: 80px;
