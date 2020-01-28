@@ -12,12 +12,10 @@ header.masthead .intro-text .intro-heading {
     font-family: Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
 }
 .socialmediabutton{
-<<<<<<< HEAD
+
   border: none;
   background-color: inherit;
-=======
-  border-radius: 50%;
->>>>>>> 0eb5ff052553c59a965d010f7daadf326be623d4
+
 }
 .icon{
 width: 100px;
