@@ -11,6 +11,8 @@ header.masthead .intro-text .intro-heading {
     text-shadow: 0 0 20px black;
     font-family: Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
 }
+.socialmediabutton{
+}
 .icon{
 width: 100px;
 }
@@ -19,18 +21,6 @@ width: 100px;
   margin-left: 0px 0px 0px 30px;
   width: 100px;
   height: 100px;
-}
-ul.social-buttons li a{
-    font-size: 20px;
-    line-height: 50px;
-    display: block;
-    width: 50px;
-    height: 50px;
-    transition: all .3s;
-    color: #fff;
-    border-radius: 100%;
-    outline: 0;
-    background-color: #212529;
 }
 #socialmediaicon{
   border-radius: 50%;
