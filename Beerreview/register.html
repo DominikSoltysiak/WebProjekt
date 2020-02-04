@@ -41,30 +41,30 @@
       </div>
       <div class="row">
         <div class="col-lg-12">
-          <form id="contactForm" name="sentMessage" novalidate="novalidate">
+          <form id="contactForm" action="register.php" method="post">
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
-                  <input class="form-control" id="name" type="text" placeholder="Username *" required="required" data-validation-required-message="Please enter your Username.">
+                  Username: <input class="form-control" name="username" id="name" type="text" placeholder="Username" required="required" data-validation-required-message="Please enter your Username.">
                   <p class="help-block text-danger"></p>
                 </div>
                 <div class="form-group">
-                  <input class="form-control" id="name" type="text" placeholder="E-Mail" required="required" data-validation-required-message="Please enter your E-Mail address.">
+                  Email: <input class="form-control" name="email" id="email" type="text" placeholder="E-Mail" required="required" data-validation-required-message="Please enter your E-Mail address.">
                   <p class="help-block text-danger"></p>
                 </div>
                 <div class="form-group">
-                  <input class="form-control" id="passwort" type="password" placeholder="Passwort *" required="required" data-validation-required-message="Please enter your Passwort.">
+                  Password: <input class="form-control" name="password" id="passwort" type="password" placeholder="Passwort" required="required" data-validation-required-message="Please enter your Passwort.">
                   <p class="help-block text-danger"></p>
                 </div>
                 <div class="form-group">
-                  <input class="form-control" id="passwort" type="password" placeholder="Repeat Passwort *" required="required" data-validation-required-message="Please repeat your Passwort.">
+                  Password_Rep: <input class="form-control" name="password_rep" id="passwort" type="password" placeholder="Repeat Passwort" required="required" data-validation-required-message="Please repeat your Passwort.">
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
               <div class="clearfix"></div>
               <div class="col-lg-12 text-center">
                 <div id="success"></div>
-                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="index.html">I'm over 16</a>
+                <input class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" type="submit" value="INSERT">
                 <br><br><br><br><br><br><br>
               </div>
             </div>
