@@ -34,7 +34,7 @@ if ($stmt = $con->prepare('SELECT username, password FROM users WHERE username =
   		$_SESSION['loggedin'] = TRUE;
   		$_SESSION['name'] = $_POST['username'];
   		$_SESSION['id'] = $id;
-  		header('Location: bruh.html');
+  		header('Location: indexLoggedIn.html');
   	} else {
   		echo 'Incorrect password!';
   	}
