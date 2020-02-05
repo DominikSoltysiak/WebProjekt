@@ -29,12 +29,12 @@ if ($stmt = $con->prepare('SELECT username, password FROM users WHERE username =
   	$stmt->fetch();
 
   	if ($_POST['password'] === $password) {
-  		
+
   		session_regenerate_id();
   		$_SESSION['loggedin'] = TRUE;
   		$_SESSION['name'] = $_POST['username'];
   		$_SESSION['id'] = $id;
-  		header('Location: index.html');
+  		header('Location: bruh.html');
   	} else {
   		echo 'Incorrect password!';
   	}
