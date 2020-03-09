@@ -1,0 +1,84 @@
+body{
+  background-color: #121212;
+}
+
+header.masthead .intro-text .intro-heading {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    color:#fed136;
+    margin-bottom: 25px;
+    text-shadow: 0 0 20px black;
+    font-family: Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+}
+fieldset {
+	margin: 115px auto;
+	width: 400px;
+	padding: 8px 15px 15px 15px;
+	border: 1px solid white;
+	display: block; /* IE 7 Requires This */
+	}
+  legend {
+  padding: 4px 6px 4px 6px;
+  border: 1px solid white;
+  font-size: 2.0em;
+  color: #e3f1fa;
+  font-style: italic;
+}
+.icon{
+width: 100px;
+}
+.icon img{
+  border-radius: 50%;
+  margin-left: 0px 0px 0px 30px;
+  width: 100px;
+  height: 100px;
+}
+ul.social-buttons li a{
+    font-size: 20px;
+    line-height: 50px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    transition: all .3s;
+    color: #fff;
+    border-radius: 100%;
+    outline: 0;
+    background-color: #212529;
+}
+#socialmediaicon{
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+}
+#beerlist{
+    text-align: left;
+    margin: 5px;
+    padding: 0px;
+
+}
+.page-section h2.section-heading {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: white;
+}
+#portfolio_team{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #121212;
+}
+
+
+.service-heading {
+    margin: 15px 0;
+    text-align: left;
+    text-transform: none;
+    color: white;
+}
+
+.timeline .timeline-heading h4 {
+    margin-top: 0;
+    color: white;
+}
