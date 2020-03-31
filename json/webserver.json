@@ -1,0 +1,14 @@
+{
+  "poll":[
+    {"id":1,"beerbrand":"Kapsreiter Landbier Hell","votes":0},
+    {"id":2,"beerbrand":"Zipfer Urtyp","votes":0},
+    {"id":3,"beerbrand":"Baumgartner Märzen","votes":0},
+    {"id":4,"beerbrand":"Wieselburger Stammbräu","votes":0},
+    {"id":5,"beerbrand":"Freistädter Rathsherrn","votes":0},
+    {"id":6,"beerbrand":"Schloss Eggenberg Hopfen König","votes":0}
+  ],
+
+  "users":[
+    {"id":0,"username":"admin","password":"asdf1234"}
+  ]
+}
