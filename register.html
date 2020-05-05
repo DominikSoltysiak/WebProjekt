@@ -41,7 +41,7 @@
       </div>
       <div class="row">
         <div class="col-lg-12">
-          <form id="contactForm" action="register.php" method="post">
+          <form id="registerForm" method="post">
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
@@ -63,12 +63,18 @@
               </div>
               <div class="clearfix"></div>
               <div class="col-lg-12 text-center">
-                <div id="success"></div>
-                <input class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" type="submit" value="INSERT">
+                <!-- <div id="success"></div>-->
+                <input class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" type="button" onclick="registerFunction" value="REGISTER">
                 <br><br>
               </div>
             </div>
           </form>
+          <script>
+              function registerFunction(){
+                var x= document.getElementById("registerForm").submit()
+                console.log('UwU whats this')
+              }
+          </script>
         </div>
       </div>
     </div>
