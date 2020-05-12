@@ -23,7 +23,7 @@
   <!-- Custom styles for this template -->
   <link href="css/agency.min.css" rel="stylesheet">
 
-
+  <script src="js/register.js"></script>
 
 </head>
 
@@ -44,43 +44,28 @@
       </div>
       <div class="row">
         <div class="col-lg-12">
-          <form id="registerForm" action="">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input class="form-control" name="username" id="name" type="text" placeholder="Username" required="required" data-validation-required-message="Please enter your Username.">
-
-                </div>
-                <div class="form-group">
-                  <input class="form-control" name="email" id="email" type="text" placeholder="E-Mail" required="required" data-validation-required-message="Please enter your E-Mail address.">
-
-                </div>
-                <div class="form-group">
-                  <input class="form-control" name="password" id="passwort" type="password" placeholder="Passwort" required="required" data-validation-required-message="Please enter your Passwort.">
-
-                </div>
-                <div class="form-group">
-                  <input class="form-control" name="password_rep" id="passwort" type="password" placeholder="Repeat Passwort" required="required" data-validation-required-message="Please repeat your Passwort.">
-
-                </div>
-              </div>
-              <div class="clearfix"></div>
-              <div class="col-lg-12 text-center">
-                <div id="success"></div>
-                <button class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" type="button" onclick="registerFunction" value="REGISTER">REGISTER</button>
-                <br><br>
-              </div>
-            </div>
-          </form>
+        <form name="registration"onsubmit="return registerFunction();">
+          <div class="col-lg-12 text-center">
+          <div class="form-group">
+            <ul>
+              <br>
+              <li><input class="form-control" type="text" name="username" placeholder="username"></input></li>
+              <br>
+              <li><input class="form-control" type="text" name="email" placeholder="Email"></input></li>
+              <br>
+              <li><input class="form-control" type="password" name="password" placeholder="Password"></input></li>
+              <br>
+              <li><input class="form-control" type="password" name="password_rep" placeholder="Repeat Password"></input></li>
+              <br>
+              <li><input class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" type="submit" name="submit" value="Submit" /></li>
+            </ul>
+          </div>
+        </form>
 
         </div>
+        </div>
       </div>
-      <script>
-          function registerFunction(){
-            var x= document.getElementById("registerForm").REGISTER()
-            console.log(x)
-          }
-      </script>
+
     </div>
   </section>
 
