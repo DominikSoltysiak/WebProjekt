@@ -6,6 +6,9 @@ body {
 	font-size: 62.5%;
 	font-family: Georgia, serif;
 	background-image: url('../img/login.png');
+	background-repeat: repeat;
+  background-position: center;
+  background-size: auto;
 }
 h6 {
 	font-size: 1.4em;
