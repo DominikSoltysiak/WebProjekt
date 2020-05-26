@@ -106,7 +106,7 @@ width: 100px;
 
 .topnav {
   background-color: #333;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .topnav a {
@@ -129,7 +129,7 @@ width: 100px;
 
 .dropdown {
   float: left;
-  overflow: auto;
+  overflow: visible;
 }
 
 .dropdown .dropbtn {
