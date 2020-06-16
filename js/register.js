@@ -7,6 +7,6 @@ function registerFunction(){
 
 
 
-  var string=JSON.stringify({"id":x.Lenght,"username":username,"email":email,"password":password})
-  
+  var string=JSON.stringify({"id":x.Lenght+1,"username":username,"email":email,"password":password})
+
 }
