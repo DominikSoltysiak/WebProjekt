@@ -1,22 +1,12 @@
+function registerFunction(){
+  var form = document.getElementById('registerForm');
+  var email = form["email"].value;
+  var username = form["username"].value;
+  var password = form["password"].value;
+  var password_rep = form["password_rep"].value;
 
 
 
-function FormToJson(var form){
-  const FormToJson=elements=>[].reduce.call(element, (data, element))
-}
-
-
-function handleSubmit(var event){
-    const handleFormSubmit = event =>{
-      event.preventDefault();
-
-
-    const data={};
-
-    const dataContainer = document.getElementsByClassName('form-group')[0];
-
-    dataContainer.textContent=JSON.stringify(data,null,"  ");
-  };
-  const form = document.getElementsByClassName('form-group')[0];
-  form.addEventListener('submit', handleFormSubmit);
+  var string=JSON.stringify({"id":x.Lenght,"username":username,"email":email,"password":password})
+  
 }
