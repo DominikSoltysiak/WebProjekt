@@ -5,7 +5,7 @@ function registerFunction(){
   var password = form["password"].value;
   var password_rep = form["password_rep"].value;
 
-
+  console.log(username);
 
   var string=JSON.stringify({"id":x.Lenght+1,"username":username,"email":email,"password":password})
 
