@@ -9,6 +9,6 @@
   ],
 
   "users":[
-    {"id":0,"username":"admin","password":"asdf1234"}
+    {"id":0,"username":"admin","email":"beerreviewung@gmail.com","password":"asdf1234"}
   ]
 }
