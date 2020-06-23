@@ -67,9 +67,6 @@ width: 100px;
   display: block;
   background-color: black;
 }
-
-
-
 #beerlist{
     text-align: left;
     margin: 5px;
@@ -127,7 +124,7 @@ width: 100px;
 
 .dropdown {
   float: left;
-  overflow: visible;
+  overflow: none;
 }
 
 .dropdown .dropbtn {
