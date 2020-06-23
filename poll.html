@@ -25,46 +25,8 @@
   <link href="css/agency.min.css" rel="stylesheet">
   <script language="javascript" src="./js/poll.js"></script>
 </head>
-
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="index.html">BeerReview</a>
-    </div>
-  </nav>
-  <section class="page-section" id="poll">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Poll</h2>
-        </div>
-      </div>
-      <fieldset>
-	<legend>What is your favourite beer?</legend>
-
-  <script type="text/javascript">
-  var request = new XMLHttpRequest();
-  request.open('GET', 'http://localhost:3000/poll', true);
-  request.onload = function () {
-    // Begin accessing JSON data here
-    request.send();
-
-    console.log('ttest');
-    if (request.status >= 200 && request.status < 400) {
-      data.forEach(poll => {
-        console.log(poll.beerbrand);
-      });
-    } else {
-      console.log('error');
-    }
-  }
-
-  // Send request
-
-  </script>
-
-
-</fieldset>
+<script>
+(function(t,e,s,n){var o,a,c;t.SMCX=t.SMCX||[],e.getElementById(n)||(o=e.getElementsByTagName(s),a=o[o.length-1],c=e.createElement(s),c.type="text/javascript",c.async=!0,c.id=n,c.src="https://widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd6FE010RATDlVHI87YPXYC_2Bhgj0DOazyJP_2Blx_2F_2BY0a5c.js",a.parentNode.insertBefore(c,a))})(window,document,"script","smcx-sdk");</script><a style="font: 12px Helvetica, sans-serif; color: #999; text-decoration: none;"
 </body>
-</html>
 </html>
